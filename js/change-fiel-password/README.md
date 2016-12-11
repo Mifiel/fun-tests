@@ -38,7 +38,7 @@ key (it can be `PEM` or `DER` encoded).
 please do reach out and we will happily provide one.
 - We encourage you to communicate as much as you can, so please don’t be afraid of asking questions. 
 Remember, there is no such thing as a dumb question!
-- The private key of the FIEL is in `PKCS7` format, the input and output private key should have this format.
+- The private key of the FIEL is in `PKCS8` format, the input and output private key should have this format.
 - The password of the provided key (FIEL_AAA010101AAA.key) is **12345678a**
 
 **Good luck!!**
