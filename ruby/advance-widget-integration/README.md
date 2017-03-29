@@ -26,5 +26,8 @@ Build a small web app that creates a simple PDF, sends the hash and the name of 
 
 ## Notes
 
+- The full description on how to make calls to the API is in http://docs.mifiel.com/#introduction, use the sandbox environment!. When you are ready to begin, ask us to give you some free docs so you can test without *Payment Required* errors.
 - There is no time limit to deliver the solution but the speed will be taken into account.
 - We encourage you to communicate as much as you can, so please don’t be afraid of asking questions. Remember, there is no such thing as a dumb question!
+
+**Good luck!!**
