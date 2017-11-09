@@ -39,7 +39,7 @@ Nonce used: 4174
 ## Notes
 
 - We expect you to take no more than two hours on it.
-- The code should not only accomplish what it should but also follow best practices in terms of quality, efficiency, and formatting.
+- The code should not only accomplish what it should but also follow best practices in terms of quality, efficiency, and presentation.
 - We encourage you to communicate as much as you can, so please don’t be afraid of asking questions. Remember, there is no such thing as a dumb question!
 
 **Good luck!!**
