@@ -6,7 +6,7 @@ The algorithm is pretty simple: you must double hash (with SHA-256) a given `mes
 
 For example, when you run the algorithm with the message `Hello, world!` and a difficulty of `3`, it gives you the nonce `4174`. Therefore, if you send the `message` and the `nonce` to anyone, he could easily verify that you expended a modest amount of CPU time calculating this nonce by double hashing the message plus the nonce, and expecting the first 3 digits of the __hexadecimal result__ to be zeros.
 
-In Bitcoin, the algorithm is a little bit more complex and it is designed to increase or decrease the difficulty to force miners to take approximately 10 minutes before they find the nonce. If the miners take less than 10 minutes to find the nonce the difficulty increases.
+In Bitcoin, the algorithm is a little bit more complex and it is designed to increase or decrease the difficulty to force miners to take approximately 10 minutes before they find the nonce. If a point comes when the miners take less than 10 minutes to find the nonce, the difficulty increases to adjust accordingly (so that it returns to approximately 10 minutes).
 
 ## Deliverables
 
@@ -39,7 +39,7 @@ Nonce used: 4174
 ## Notes
 
 - We expect you to take no more than two hours on it.
-- The code quality will be taken into account.
+- The code should not only accomplish what it should but also follow best practices in terms of quality, efficiency, and formatting.
 - We encourage you to communicate as much as you can, so please don’t be afraid of asking questions. Remember, there is no such thing as a dumb question!
 
 **Good luck!!**
