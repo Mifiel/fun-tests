@@ -2,11 +2,11 @@
 
 A __proof of work__ is a piece of data which is difficult (costly, time-consuming) to produce but easy for others to verify and which satisfies certain requirements. Producing a proof of work can be a random process with low probability so that a lot of trial and error is required on average before a valid proof of work is generated. Bitcoin uses the Hashcash proof of work system.
 
-The algorithm is pretty simple: you must double hash (with sha256) a given `message` with a numeric `nonce` appended to it and find the nonce that creates an hexadecimal string with _n_ zeros at the begining of it. The _n_ is called dificulty.
+The algorithm is pretty simple: you must double hash (with SHA-256) a given `message` with a numeric `nonce` appended to it and find the nonce that creates a hexadecimal string with _n_ zeros at the beginning of it. The _n_ is called the difficulty.
 
 For example, when you run the algorithm with the message `Hello, world!` and a difficulty of `3`, it gives you the nonce `4174`. Therefore, if you send the `message` and the `nonce` to anyone, he could easily verify that you expended a modest amount of CPU time calculating this nonce by double hashing the message plus the nonce, and expecting the first 3 digits of the __hexadecimal result__ to be zeros.
 
-In Bitcoin, the algorithm is a little bit more complex and it is designed to increase or decrease the dificulty to force miners to take aproximatly 10 minutes before they find the nonce. If the miners take less than 10 minutes to find the nonce the dificulty increases.
+In Bitcoin, the algorithm is a little bit more complex and it is designed to increase or decrease the difficulty to force miners to take approximately 10 minutes before they find the nonce. If the miners take less than 10 minutes to find the nonce the difficulty increases.
 
 ## Deliverables
 
@@ -17,7 +17,7 @@ A ruby script that can run as a command line utility with the following inputs a
 Input Name | Datatype | Example        | Description
 ---------- | -------- | -------------- | --------
 message    | String   | Hello, world!  | The message to do the proof of work on
-difficulty | Integer  | 3 (recomended) | The difficulty (number of zeros that the result hash must have)
+difficulty | Integer  | 3 (recommended) | The difficulty (number of zeros that the resulting hash must have)
 
 ### Outputs
 
