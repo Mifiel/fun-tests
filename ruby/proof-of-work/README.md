@@ -10,7 +10,7 @@ In Bitcoin, the algorithm is a little bit more complex and it is designed to inc
 
 ## Deliverables
 
-A ruby script that can run as a command line utility with the following inputs and outputs.
+A ruby or node script that can run as a command line utility with the following inputs and outputs.
 
 ### Inputs
 
@@ -35,11 +35,3 @@ Finished after 0.022134 Seconds
 PoW Hash: 0004b5ec0e58569b916cd0e55b1253e2da19e8cf4d291108f8146c0ad5bd3810
 Nonce used: 4174
 ```
-
-## Notes
-
-- We expect you to take no more than two hours on it.
-- The code should not only accomplish what it should but also follow best practices in terms of quality, efficiency, and presentation.
-- We encourage you to communicate as much as you can, so please don’t be afraid of asking questions. Remember, there is no such thing as a dumb question!
-
-**Good luck!!**
