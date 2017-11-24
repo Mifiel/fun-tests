@@ -10,7 +10,7 @@ In Bitcoin, the algorithm is a little bit more complex and it is designed to inc
 
 ## Deliverables
 
-A ruby or node script that can run as a command line utility with the following inputs and outputs.
+A script in any language that can run as a command line utility with the following inputs and outputs.
 
 ### Inputs
 
