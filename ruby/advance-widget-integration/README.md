@@ -16,7 +16,7 @@ Build a small web app that creates a simple PDF, sends the hash and the name of 
 
 - Create PDF. It can be a simple as having user press a button that says “Crear PDF”. Make sure to create the PDF in the backend. 
 - Send *SHA256 *hash** and *name* of the file and a *callback_url* (to receive events when all signers have signed) to mifiel.com
-- Use the widget_id (from response in point 2) and the Base64 formatted content of the PDF and pass it to the snippet described in http://docs.mifiel.com/#widget
+- Use the widget_id (from response in point 2) and the Base64 formatted content of the PDF and pass it to the snippet described in https://docs.mifiel.com/#tag/Embeber-widget-de-firma
 - Present the widget with the document to the user so he can sign it.
 - Mifiel will POST the document object when all the signers signed the document. The web app should catch this request and:
   * Fetch the signatures page from the server
@@ -26,7 +26,7 @@ Build a small web app that creates a simple PDF, sends the hash and the name of 
 
 ## Notes
 
-- The full description on how to make calls to the API is in http://docs.mifiel.com/#introduction, use the sandbox environment!. When you are ready to begin, ask us to give you some free docs so you can test without *Payment Required* errors.
+- The full description on how to make calls to the API is in https://docs.mifiel.com/#section/Introduccion, use the sandbox environment!. When you are ready to begin, ask us to give you some free docs so you can test without *Payment Required* errors.
 - There is no time limit to deliver the solution but the speed will be taken into account.
 - We encourage you to communicate as much as you can, so please don’t be afraid of asking questions. Remember, there is no such thing as a dumb question!
 
